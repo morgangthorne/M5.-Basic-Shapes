@@ -12,20 +12,20 @@ private:
     double radius;
 
 public:
-    // Constructor
+    //Constructor
     Circle(double x, double y, double r, const string& n = "Circle");
 
-    // Getters
+    //Getters
     double GetXCenter() const { return xCenter; }
     double GetYCenter() const { return yCenter; }
     double GetRadius() const { return radius; }
 
-    // Setters
+    //Setters
     void SetXCenter(double x);
     void SetYCenter(double y);
     void SetRadius(double r);
 
-    // Calculate area
+    //alculate area
     void CalculateArea() override;
 };
 

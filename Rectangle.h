@@ -10,18 +10,18 @@ private:
     double width;
 
 public:
-    // Constructor
+    //Constructor
     Rectangle(double l, double w, const std::string& n = "Rectangle");
 
-    // Getters
+    //Getters
     double GetLength() const { return length; }
     double GetWidth() const { return width; }
 
-    // Setters
+    //Setters
     void SetLength(double l);
     void SetWidth(double w);
 
-    // Calculate area
+    //Calculate area
     void CalculateArea() override;
 };
 

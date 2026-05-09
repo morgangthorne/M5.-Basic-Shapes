@@ -4,29 +4,27 @@
 
 #include "Circle.h"
 
-// Constructor
+//Constructor
 Circle::Circle(double x, double y, double r, const string& n) : xCenter(x), yCenter(y), radius(r)
 {
     SetName(n);   // Set name from BasicShape
     CalculateArea();   // Calculate initial area
 }
 
-// Setters
+//Setters
 void Circle::SetXCenter(double x) {
     xCenter = x;
-    // Area does not depend on center, but consistency is good
     CalculateArea();
 }
 
 void Circle::SetYCenter(double y) {
     yCenter = y;
-    // Area does not depend on center, but consistency is good
     CalculateArea();
 }
 
 void Circle::SetRadius(double r) {
     radius = r;
-    CalculateArea();   // Area depends on radius
+    CalculateArea();   
 }
 
 // Calculate area
