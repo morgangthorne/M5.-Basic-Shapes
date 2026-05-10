@@ -127,6 +127,7 @@
     <ClCompile Include="M5. Basic Shapes.cpp" />
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Square.cpp" />
+    <ClCompile Include="TestDrive.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicShape.h" />
